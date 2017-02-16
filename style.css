@@ -1,0 +1,67 @@
+.subtitle {
+    color: purple;
+    background-color: yellow;
+    border-color: green;
+    border-width: thick;
+    border: 5px solid green;
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2 {
+    display: block;
+    color: seagreen;
+    border: 2px dotted blue;
+    background-color: red;
+    text-align: center;
+    font-family: fantasy, serif;
+}
+
+table {
+    vertical-align: middle;
+    margin: 0px auto;
+    width: 900px;
+    height: 250px;
+    border: 2px solid red;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg");
+    text-align: center;
+}
+
+.resize {
+    max-height: 20%;
+    max-width: 20%;
+}
+
+
+a:visited {
+    color: pink;
+}
+
+a:link {
+    color: green;
+}
+
+tr:first-of-type {
+    background-color: green;
+}
+
+tr:nth-child(2){
+    background-color: lightpink;
+}
+
+tr:nth-child(3) {
+    background-color: yellow;
+}
+
+tr:nth-child(4) {
+    background-color: purple;
+}
+
+tr:hover
+{
+    background-color: lightblue;
+}
